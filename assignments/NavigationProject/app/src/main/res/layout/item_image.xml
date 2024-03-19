@@ -1,0 +1,69 @@
+<!-- item_image.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="218dp"
+            android:layout_height="188dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/android_image_1" />
+
+        <Button
+            android:id="@+id/displayButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Image" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="218dp"
+            android:layout_height="228dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/android_image_3" />
+
+        <Button
+            android:id="@+id/displayButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Image" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="218dp"
+            android:layout_height="213dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/android_image_2" />
+
+        <Button
+            android:id="@+id/displayButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Image" />
+
+    </LinearLayout>
+
+</LinearLayout>
